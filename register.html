@@ -1,0 +1,68 @@
+<head>
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- fontawesome CSS -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="icon" href="img/favicon.png">
+
+</head>
+<form action="#login" class="Form">
+    <h1 class="Form-title">Iniciar sesión</h1>
+    <div class="Form-fields">
+
+            <div class="col-6">
+                <td>
+                    <label for="email" class="Control-label Control-label--email">Correo</label>
+                    <input type="email" id="email" class="ControlInput ControlInput--email" placeholder=" " required>
+                    <div class="Control-requirements Control-requirements--email">
+                        Debe ingresar un correo válido
+                    </div>
+                
+
+                <td>
+                    <label class="Control-label Control-label--password">Contraseña</label>
+
+                    <input type="password">
+                </td>
+
+                <td>
+
+                    <label class="font-weight-bold">Identificación</label>
+
+                    <input type="text" id="password" placeholder="" autocomplete="off" autocapitalize="off" autocorrect="off" required pattern=".{6,}" class="ControlInput ControlInput--password">
+                </td>
+
+                <td>
+
+                    <label class="font-weight-bold">Nombre</label>
+
+                    <input type="text" id="password" placeholder="" autocomplete="off" autocapitalize="off" autocorrect="off" required pattern=".{6,}" class="ControlInput ControlInput--password">
+                </td>
+            </div>
+            <div class="col-6">
+                <td>
+                    <label class="font-weight-bold">Número de teléfono</label>
+
+                    <input type="text" id="password" placeholder="" autocomplete="off" autocapitalize="off" autocorrect="off" required pattern=".{6,}" class="ControlInput ControlInput--password">
+
+                </td>
+                <td>
+                    <label class="font-weight-bold">Fecha de nacimiento</label>
+
+                    <input type="date" style="margin-bottom: 30px;">
+                </td>
+
+              </div>
+
+        <button type="submit" class="Button Form-submit" style="margin-bottom: 10px;">
+            Iniciar sesión
+        </button>
+
+        <label style="text-align: center" class="register"><a href="" class="register_a">Registrarse</a></label>
+
+
+    </div>
+</form>

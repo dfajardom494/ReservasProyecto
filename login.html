@@ -1,0 +1,45 @@
+<head>
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- fontawesome CSS -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="icon" href="img/favicon.png">
+    
+    <style>
+        .register_a:placeholder{
+            
+        }
+    
+    </style>
+</head>
+<form action="#login" class="Form">
+    <h1 class="Form-title">Iniciar sesión</h1>
+    <div class="Form-fields">
+        <input type="email" id="email" class="ControlInput ControlInput--email" placeholder=" " required>
+        <label for="email" class="Control-label Control-label--email">Correo</label>
+        <div class="Control-requirements Control-requirements--email">
+            Debe ingresar un correo válido
+        </div>
+
+        <br>
+        <label for="show-password" class="Control-label Control-label--showPassword">
+
+
+        </label>
+
+        <input type="text" id="password" placeholder=" " autocomplete="off" autocapitalize="off" autocorrect="off" required pattern=".{6,}" class="ControlInput ControlInput--password">
+
+        <label for="password" class="Control-label Control-label--password">Contraseña</label>
+
+        <button type="submit" class="Button Form-submit" style="margin-bottom: 10px;">
+            Iniciar sesión
+        </button>
+        
+        <label style="text-align: center" class="register"><a href="" class="register_a">Registrarse</a></label>
+
+
+    </div>
+</form>
